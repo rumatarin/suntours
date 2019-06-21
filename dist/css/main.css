@@ -1165,7 +1165,7 @@ body {
       .tour__title-span {
         display: none; } }
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .tour .tour__title-span {
+    .tour__title-span {
       position: absolute;
       right: 0;
       bottom: 0;
@@ -1175,7 +1175,7 @@ body {
       background: url(/img/rectangle.png) center no-repeat;
       background-size: cover; } }
   @supports (-ms-ime-align: auto) {
-    .tour .tour__title-span {
+    .tour__title-span {
       position: absolute;
       right: 0;
       bottom: 0;
