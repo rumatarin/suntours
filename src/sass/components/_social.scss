@@ -1,0 +1,47 @@
+.social {
+  display: flex;
+
+
+  &__pic-wrap {
+    &:not(:last-child) {
+      margin-right: 1rem;
+
+      @include respond(mobile-l) {
+        margin-right: 3rem;
+      }
+
+      @include respond(mobile-m) {
+        margin-right: 2.5rem;
+      }
+
+      @include respond(mobile-s) {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__ico {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    @include respond(mobile-l) {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    @include respond(mobile-m) {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    @include respond(mobile-s) {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+}

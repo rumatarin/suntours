@@ -1,0 +1,22 @@
+.logo {
+  &__pic {
+    width: 17.9rem;
+    height: 4.4rem;
+    fill: $sec-col;
+
+    @include respond(mobile-l) {
+      width: 26rem;
+      height: 7rem;
+    }
+
+    @include respond(mobile-m) {
+      width: 26rem;
+      height: 7rem;
+    }
+
+    @include respond(mobile-s) {
+      width: 17.9rem;
+      height: 4.4rem;
+    }
+  }
+}

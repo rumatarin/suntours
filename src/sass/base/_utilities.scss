@@ -1,0 +1,26 @@
+.bold-text {
+  font-weight: bold !important;
+}
+
+.italic__text {
+  font-style: italic !important;
+}
+
+.margin-bottom {
+  margin-bottom: 2.4rem !important;
+}
+
+.text__indent {
+  text-indent: -.9rem;
+}
+
+br {
+
+  @include respond(mobile-m) {
+    display: none;
+  }
+
+  @include respond(mobile-s) {
+    display: none;
+  }
+}

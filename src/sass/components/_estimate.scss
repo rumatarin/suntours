@@ -1,0 +1,184 @@
+.estimate {
+  display: flex;
+  align-items: center;
+
+  @include respond(mobile-m) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @include respond(mobile-s) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__title {
+    margin-right: 3.5rem;
+
+    @include respond(mobile-m) {
+      flex-basis: 85%;
+      margin: 0;
+    }
+
+    @include respond(mobile-s) {
+      flex-basis: 85%;
+      margin: 0;
+    }
+  }
+
+  &__text {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+
+    @include respond(mobile-l) {
+      font-size: 3rem;
+      line-height: 2.6rem;
+      margin: 0 0 .5rem 0;
+    }
+
+    @include respond(mobile-m) {
+      font-size: 4rem;
+      line-height: 2.6rem;
+      margin: 0 0 1rem 0;
+    }
+
+    @include respond(mobile-s) {
+      font-size: 4rem;
+      line-height: 2.6rem;
+      margin: 0;
+    }
+  }
+
+  &__feedback {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+
+    @include respond(mobile-l) {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+
+    @include respond(mobile-m) {
+      font-size: 2.4rem;
+      line-height: 2.6rem;
+    }
+
+    @include respond(mobile-s) {
+      font-size: 2.4rem;
+      line-height: 2.6rem;
+    }
+  }
+
+  &__total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.2rem;
+    height: 5.2rem;
+    background-color: $prim-col;
+    margin-right: 2.4rem;
+
+    @include respond(mobile-l) {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    @include respond(mobile-m) {
+      width: 7.2rem;
+      height: 7.2rem;
+      margin: 0 0 2rem 0;
+    }
+
+    @include respond(mobile-s) {
+      width: 7.2rem;
+      height: 7.2rem;
+      margin: 0 0 2rem 0;
+    }
+  }
+
+  &__total-count {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: $sec-col;
+
+    @include respond(mobile-l) {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+
+    @include respond(mobile-m) {
+      font-size: 3.4rem;
+      line-height: 3.8rem;
+    }
+
+    @include respond(mobile-s) {
+      font-size: 3.4rem;
+      line-height: 3.8rem;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 1.6rem;
+    }
+  }
+
+  &__estimate-name {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    @include respond(mobile-l) {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+    }
+
+    @include respond(mobile-m) {
+      font-size: 2.2rem;
+      line-height: 2.4rem;
+    }
+
+    @include respond(mobile-s) {
+      font-size: 2.2rem;
+      line-height: 2.4rem;
+    }
+  }
+
+  &__count {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    @include respond(mobile-l) {
+      font-size: 2.8rem;
+      line-height: 3.1rem;
+    }
+
+    @include respond(mobile-m) {
+      font-size: 2.8rem;
+      line-height: 3.1rem;
+    }
+
+    @include respond(mobile-s) {
+      font-size: 2.8rem;
+      line-height: 3.1rem;
+    }
+  }
+}

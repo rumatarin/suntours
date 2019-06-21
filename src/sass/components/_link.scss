@@ -1,0 +1,10 @@
+.link {
+  display: block;
+  
+  transition: all .3s ease;
+
+  &:hover {
+    color: $active-item !important;
+    border-bottom: .1rem solid rgba($active-item, .25);
+  }
+}

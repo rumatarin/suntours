@@ -1,0 +1,345 @@
+.article {
+
+  &__textarea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    @include respond(mobile-l) {
+      text-align: justify;
+    }
+
+    @include respond(mobile-m) {
+      text-align: justify;
+    }
+
+    @include respond(mobile-s) {
+      text-align: justify;
+    }
+    
+  }
+
+  &__heading {
+    margin: 0 0 3rem 0;
+  }
+
+  &__text {
+    flex-basis: 75%;
+
+    @include respond(mobile-l) {
+      flex-basis: 100%;
+    }
+
+    @include respond(mobile-m) {
+      flex-basis: 100%;
+    }
+
+    @include respond(mobile-s) {
+      flex-basis: 100%;
+    }
+  }
+
+  &__p {
+    margin-bottom: 2rem;
+  }
+
+  &__description {
+    position: relative;
+    width: 88%;
+    display: block;
+    margin: 3.6rem 0 3.6rem 8rem;
+
+    @include respond(mobile-l) {
+      width: 70%;
+    }
+
+    @include respond(mobile-m) {
+      width: 70%;
+    }
+
+    @include respond(mobile-s) {
+      width: 70%;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 0.8rem;
+      height: 125%;
+      background-color: $prim-col;
+
+      position: absolute;
+      top: -13%;
+      left: -2.5rem;
+
+      @include respond(mobile-l) {
+        height: 105%;
+        top: -4%;
+      }
+
+      @include respond(mobile-m) {
+        height: 105%;
+        top: -4%;
+      }
+
+      @include respond(mobile-s) {
+        height: 105%;
+        top: -4%;
+      }
+    }
+  }
+
+  &__cpllapse-btn {
+    display: none;
+    background: none;
+    border: none;
+    padding: .2rem .2rem .2rem .2rem;
+    border-bottom: 0.1rem solid hsla(0, 0%, 0%, 0.25);
+    cursor: pointer;
+
+
+    @include respond(mobile-l) {
+      display: block;
+    }
+
+    @include respond(mobile-m) {
+      display: block;
+    }
+
+    @include respond(mobile-s) {
+      display: block;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__collapse {
+
+    @include respond(mobile-l) {
+      display: none;
+    }
+
+    @include respond(mobile-m) {
+      display: none;
+    }
+
+    @include respond(mobile-s) {
+      display: none;
+    }
+  }
+
+  &__sec-heading {
+    margin-bottom: 0.5rem;
+  }
+
+  &__ter-heading {
+    margin-bottom: 0.5rem;
+  }
+
+  &__stat {
+    display: flex;
+    flex-direction: column;
+    width: 22.7rem;
+    margin-top: 15rem;
+
+    @include respond(mobile-l) {
+      display: none;
+    }
+
+    @include respond(mobile-m) {
+      display: none;
+    }
+
+    @include respond(mobile-s) {
+      display: none;
+    }
+  }
+
+  &__table-outer {
+
+    @include respond(mobile-l) {
+      width: 59rem;
+      overflow-x: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include respond(mobile-m) {
+      width: 59rem;
+      overflow-x: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    @include respond(mobile-s) {
+      width: 50rem;
+      overflow-x: auto;
+		  display: block;
+    }
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3.1rem 0 3.1rem 0;
+    overflow-x: scroll;
+
+    @include respond(mobile-l) {
+      width: 100rem;
+      overflow-x: auto;
+		  display: block;
+    }
+
+    @include respond(mobile-m) {
+      width: 100rem;
+      overflow-x: auto;
+		  display: block;
+    }
+
+    @include respond(mobile-s) {
+      width: 100rem;
+      overflow-x: auto;
+		  display: block;
+    }
+
+    tr:first-child {
+      height: 3.6rem;
+    }
+
+    tr:nth-of-type(2) > td{
+      padding-top: 1rem;
+      padding-bottom: .5rem;
+    }
+
+    tr {
+      height: 3rem;
+    }
+
+    th {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+
+      background-color: rgba(#777, 0.2);
+
+      @include respond(mobile-l) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+
+      @include respond(mobile-m) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+
+      @include respond(mobile-s) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    td, th { 
+      width: 12.9rem;
+
+      @include respond(mobile-l) {
+        width: 20rem;
+      }
+
+      @include respond(mobile-m) {
+        width: 20rem;
+      }
+
+      @include respond(mobile-s) {
+        width: 20rem;
+      }
+    }
+
+    td {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+
+      @include respond(mobile-l) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+
+      @include respond(mobile-m) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+
+      @include respond(mobile-s) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    td:first-child {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      padding-left: 1rem;
+
+      @include respond(mobile-l) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+
+      @include respond(mobile-m) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+
+      @include respond(mobile-s) {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+      }
+    }
+  }
+
+  &__list {
+    list-style: none;
+    list-style-position: inside;
+    margin: .7rem 0 0 0;
+
+    li {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      padding-left: 1rem;
+
+      @include respond(mobile-l) {
+        font-size: 2.3rem;
+        line-height: 2.9rem;
+      }
+
+      @include respond(mobile-m) {
+        font-size: 2.1rem;
+        line-height: 2.9rem;
+      }
+
+      @include respond(mobile-s) {
+        font-size: 2.1rem;
+        line-height: 2.9rem;
+      }
+    }
+
+    li::before {
+      content: "—";
+      display: inline-block;
+      margin-right: .5rem;
+    }
+  }
+}

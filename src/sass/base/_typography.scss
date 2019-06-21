@@ -1,0 +1,359 @@
+.description__text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-indent: 0.8rem;
+
+  @include respond(mobile-l) {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    text-indent: 1.2rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    text-indent: 1rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 2.6rem;
+    line-height: 1.8rem;
+  }
+}
+
+.tour__title-name-text {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  @include respond(mobile-l) {
+    font-size: 3rem;
+    line-height: 2.9rem;
+    text-align: center;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 3rem;
+    line-height: 2.9rem;
+    text-align: inherit;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 3rem;
+    line-height: 2.9rem;
+    text-align: inherit;
+  }
+}
+
+.code__name-text {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+
+  @include respond(mobile-l) {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: inherit;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: inherit;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: inherit;
+  }
+}
+
+.code__code-text {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+}
+
+.info-header {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8.8rem;
+  line-height: 10.2rem;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: $ter-col;
+  text-indent: -0.5rem;
+
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    line-height: 8.2rem;
+  }
+}
+
+.info {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10rem;
+  line-height: 11.6rem;
+  letter-spacing: -0.05em;
+  color: $ter-col;
+}
+
+.info-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3.1rem;
+}
+
+.info-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.phone-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3.4rem;
+
+  @include respond(mobile-l) {
+    font-size: 5rem;
+    line-height: 3.4rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 5rem;
+    line-height: 3.4rem;
+  }
+}
+
+.feedback-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+
+  @include respond(mobile-l) {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+}
+
+.f-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  @include respond(mobile-l) {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+.price__text {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 4.1rem;
+
+  @include respond(mobile-l) {
+    font-size: 4.5rem;
+    line-height: 5.1rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 4.5rem;
+    line-height: 5.1rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 4.5rem;
+    line-height: 5.1rem;
+  }
+}
+
+.item__name-text {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 4.1rem;
+
+  @include respond(mobile-l) {
+    font-size: 4.5rem;
+    line-height: 4.1rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 4.5rem;
+    line-height: 4.1rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 4.5rem;
+    line-height: 4.1rem;
+  }
+}
+
+.offer__description-text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+
+  @include respond(mobile-l) {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+}
+
+.prim__heading {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 5.2rem;
+
+  @include respond(mobile-l) {
+    font-size: 5.8rem;
+    line-height: 5.8rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 5rem;
+    line-height: 4.2rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 5rem;
+    line-height: 4.2rem;
+  }
+}
+
+.sec__heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+
+  @include respond(mobile-l) {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+}
+
+.ter__heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+
+  @include respond(mobile-l) {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+  }
+}
+
+.prim__text {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+
+  @include respond(mobile-l) {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+
+  @include respond(mobile-m) {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+
+  @include respond(mobile-s) {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+}

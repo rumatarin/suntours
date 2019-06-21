@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: $prim-col;
+  display: flex;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    @include respond(mobile-l) {
+      flex-direction: column;
+      width: 60rem;
+    }
+
+    @include respond(mobile-m) {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    @include respond(mobile-s) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    display: flex;
+    align-items: flex-end;
+
+    @include respond(mobile-l) {
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    @include respond(mobile-m) {
+      justify-content: center;
+      margin-bottom: 4rem;
+    }
+
+    @include respond(mobile-s) {
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__title-item {
+    margin: 0 2.2rem 0 0;
+  }
+
+  &__description {
+    display: block;
+    width: 14.9rem;
+    color: $sec-col;
+
+    @include respond(mobile-l) {
+      width: 17.9rem;
+    }
+
+    @include respond(mobile-m) {
+      width: 24rem;
+      text-align: center;
+    }
+
+    @include respond(mobile-s) {
+      width: 14.9rem;
+    }
+  }
+
+  &__contacts-info {
+    display: flex;
+    align-items: center;
+
+    @include respond(mobile-l) {
+      flex-direction: column;
+    }
+
+    @include respond(mobile-m) {
+      flex-direction: column;
+    }
+
+    @include respond(mobile-s) {
+      flex-direction: column;
+    }
+  }
+
+  &__phone {
+    color: $sec-col;
+    text-decoration: none;
+
+    @include respond(mobile-l) {
+      margin-bottom: 1rem;
+    }
+
+    @include respond(mobile-m) {
+      margin-bottom: 4rem;
+    }
+
+    @include respond(mobile-s) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__feedback {
+    color: $sec-col;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    margin: 0 4.7rem 0 2.6rem;
+
+    @include respond(mobile-l) {
+      margin: 0 0 1.8rem 0;
+    }
+
+    @include respond(mobile-m) {
+      margin: 0 0 3rem 0;
+    }
+
+    @include respond(mobile-s) {
+      margin: 0 0 1.8rem 0;
+    }
+  }
+
+  &__social-ico {
+    fill: $sec-col;
+  }
+}
