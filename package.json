@@ -47,7 +47,6 @@
     "bootstrap": "latest",
     "hammerjs": "^2.0.8",
     "jquery": "latest",
-    "npm": "latest",
     "popper.js": "latest"
   }
 }
